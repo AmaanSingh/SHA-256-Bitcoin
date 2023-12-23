@@ -1,0 +1,1003 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project sha256
+# Compile of bitcoin_hash.sv was successful.
+# Compile of tb_bitcoin_hash.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_bitcoin_hash
+# vsim -gui work.tb_bitcoin_hash 
+# Start time: 14:57:07 on Dec 17,2023
+# Loading sv_std.std
+# Loading work.tb_bitcoin_hash
+# Loading work.bitcoin_hash
+add wave -position insertpoint sim:/tb_bitcoin_hash/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: AmaanSingh  Hostname: DESKTOP-N3OJCPI  ProcessID: 23296
+#           Attempting to use alternate WLF file "./wlftdva3hv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdva3hv
+run -all
+# current_state: 
+# current_state: IDLE
+# current_state: IDLE
+# ---------------
+# 19 WORD HEADER:
+# ---------------
+# 01234675
+# 02468cea
+# 048d19d4
+# 091a33a8
+# 12346750
+# 2468cea0
+# 48d19d40
+# 91a33a80
+# 23467501
+# 468cea02
+# 8d19d404
+# 1a33a809
+# 34675012
+# 68cea024
+# d19d4048
+# a33a8091
+# 46750123
+# 8cea0246
+# 19d4048d
+# ***************************
+# 
+# current_state: IDLE
+# present_address: xxxxxxxxxxxxxxxx
+# hash_addr: 0000011111010000
+# current_state: BLOCK
+# hash0: 6a09e667
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111101001
+# j:   0
+# offset:     1
+# read_data: 01234675
+# offset:     1
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111101010
+# j:   0
+# offset:     2
+# read_data: 02468cea
+# offset:     2
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111101011
+# j:   0
+# offset:     3
+# read_data: 048d19d4
+# offset:     3
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111101100
+# j:   0
+# offset:     4
+# read_data: 091a33a8
+# offset:     4
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111101101
+# j:   0
+# offset:     5
+# read_data: 12346750
+# offset:     5
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111101110
+# j:   0
+# offset:     6
+# read_data: 2468cea0
+# offset:     6
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111101111
+# j:   0
+# offset:     7
+# read_data: 48d19d40
+# offset:     7
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110000
+# j:   0
+# offset:     8
+# read_data: 91a33a80
+# offset:     8
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110001
+# j:   0
+# offset:     9
+# read_data: 23467501
+# offset:     9
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110010
+# j:   0
+# offset:    10
+# read_data: 468cea02
+# offset:    10
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110011
+# j:   0
+# offset:    11
+# read_data: 8d19d404
+# offset:    11
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110100
+# j:   0
+# offset:    12
+# read_data: 1a33a809
+# offset:    12
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110101
+# j:   0
+# offset:    13
+# read_data: 34675012
+# offset:    13
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110110
+# j:   0
+# offset:    14
+# read_data: 68cea024
+# offset:    14
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111110111
+# j:   0
+# offset:    15
+# read_data: d19d4048
+# offset:    15
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111000
+# j:   0
+# offset:    16
+# read_data: a33a8091
+# offset:    16
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: 6a09e667
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111001
+# j:   1
+# offset:     1
+# read_data: 02468cea
+# offset:     1
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111010
+# j:   1
+# offset:     2
+# read_data: 8cea0246
+# offset:     2
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111011
+# j:   1
+# offset:     3
+# read_data: 19d4048d
+# offset:     3
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111100
+# j:   1
+# offset:     4
+# read_data: xxxxxxxx
+# offset:     4
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# nonce:          0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111101
+# j:   1
+# offset:     5
+# read_data: xxxxxxxx
+# offset:     5
+# word_leftover:    4
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     1
+# hit1
+# hit
+# activated1
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111110
+# j:   1
+# offset:     6
+# read_data: xxxxxxxx
+# offset:     6
+# word_leftover:    5
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     2
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000001111111111
+# j:   1
+# offset:     7
+# read_data: xxxxxxxx
+# offset:     7
+# word_leftover:    6
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     3
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000000
+# j:   1
+# offset:     8
+# read_data: xxxxxxxx
+# offset:     8
+# word_leftover:    7
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     4
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000001
+# j:   1
+# offset:     9
+# read_data: xxxxxxxx
+# offset:     9
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     5
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000010
+# j:   1
+# offset:    10
+# read_data: xxxxxxxx
+# offset:    10
+# word_leftover:    9
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     6
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000011
+# j:   1
+# offset:    11
+# read_data: xxxxxxxx
+# offset:    11
+# word_leftover:   10
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     7
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000100
+# j:   1
+# offset:    12
+# read_data: xxxxxxxx
+# offset:    12
+# word_leftover:   11
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     8
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000101
+# j:   1
+# offset:    13
+# read_data: xxxxxxxx
+# offset:    13
+# word_leftover:   12
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:     9
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000110
+# j:   1
+# offset:    14
+# read_data: xxxxxxxx
+# offset:    14
+# word_leftover:   13
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:    10
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000000111
+# j:   1
+# offset:    15
+# read_data: xxxxxxxx
+# offset:    15
+# word_leftover:   14
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:    11
+# message_len:                  640
+# message_len1: 00000000000000000000000000000000
+# activated14
+# current_state: BLOCK
+# hash0: fac7db3e
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001000
+# j:   1
+# offset:    16
+# read_data: xxxxxxxx
+# offset:    16
+# word_leftover:   14
+# word_left:   10
+# num_blocks:   2
+# final_mode: 0
+# update:    11
+# message_len2: 00000000000000000000001010000000
+# activated15
+# current_state: BLOCK
+# hash0: fac7db3e
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001001
+# j:   2
+# offset:     1
+# read_data: 8cea0246
+# offset:     1
+# word_leftover:   14
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash0
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001010
+# j:   2
+# offset:     2
+# read_data: xxxxxxxx
+# offset:     2
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash1
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001011
+# j:   2
+# offset:     3
+# read_data: xxxxxxxx
+# offset:     3
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash2
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001100
+# j:   2
+# offset:     4
+# read_data: xxxxxxxx
+# offset:     4
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash3
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001101
+# j:   2
+# offset:     5
+# read_data: xxxxxxxx
+# offset:     5
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash4
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001110
+# j:   2
+# offset:     6
+# read_data: xxxxxxxx
+# offset:     6
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash5
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000001111
+# j:   2
+# offset:     7
+# read_data: xxxxxxxx
+# offset:     7
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash6
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010000
+# j:   2
+# offset:     8
+# read_data: xxxxxxxx
+# offset:     8
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hash7
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010001
+# j:   2
+# offset:     9
+# read_data: xxxxxxxx
+# offset:     9
+# word_leftover:    8
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     1
+# hit1
+# hit
+# activated1
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010010
+# j:   2
+# offset:    10
+# read_data: xxxxxxxx
+# offset:    10
+# word_leftover:    9
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     2
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010011
+# j:   2
+# offset:    11
+# read_data: xxxxxxxx
+# offset:    11
+# word_leftover:   10
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     3
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010100
+# j:   2
+# offset:    12
+# read_data: xxxxxxxx
+# offset:    12
+# word_leftover:   11
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     4
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010101
+# j:   2
+# offset:    13
+# read_data: xxxxxxxx
+# offset:    13
+# word_leftover:   12
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     5
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010110
+# j:   2
+# offset:    14
+# read_data: xxxxxxxx
+# offset:    14
+# word_leftover:   13
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     6
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000010111
+# j:   2
+# offset:    15
+# read_data: xxxxxxxx
+# offset:    15
+# word_leftover:   14
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     7
+# hit1
+# activated0
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# input_addr: 0000001111101000
+# mem_addr: 0000010000011000
+# j:   2
+# offset:    16
+# read_data: xxxxxxxx
+# offset:    16
+# word_leftover:   15
+# word_left:   10
+# num_blocks:   3
+# final_mode: 1
+# update:     8
+# message_len_bit:        256
+# activated15bit
+# current_state: BLOCK
+# hash0: 969301da
+# hash0: 969301da
+# final_mode1: 1
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: COMPUTE
+# current_state: BLOCK
+# hash0: 854104e9
+# current_state: WRITE
+# current_state: WRITE
+# current_state: WRITE
+# current_state: WRITE
+# current_state: WRITE
+# current_state: WRITE
+# current_state: WRITE
+# current_state: WRITE
+# current_state: WRITE
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H0[ 0] = a0211662	Your H0[ 0] = 854104e9	ERROR
+# Correct H0[ 1] = bfbb6ccd	Your H0[ 1] = b46d2ac0	ERROR
+# Correct H0[ 2] = da017047	Your H0[ 2] = 7fb2a938	ERROR
+# Correct H0[ 3] = 1c34e2aa	Your H0[ 3] = 25ea45b8	ERROR
+# Correct H0[ 4] = 58993aea	Your H0[ 4] = b83a1b5b	ERROR
+# Correct H0[ 5] = b41b7a67	Your H0[ 5] = d2883fdc	ERROR
+# Correct H0[ 6] = 04cf2ceb	Your H0[ 6] = ef99c03f	ERROR
+# Correct H0[ 7] = 85ab3945	Your H0[ 7] = e1753093	ERROR
+# Correct H0[ 8] = f4539616	Your H0[ 8] = xxxxxxxx	ERROR
+# Correct H0[ 9] = 0e4614d7	Your H0[ 9] = xxxxxxxx	ERROR
+# Correct H0[10] = 6bec8208	Your H0[10] = xxxxxxxx	ERROR
+# Correct H0[11] = ce75ecf2	Your H0[11] = xxxxxxxx	ERROR
+# Correct H0[12] = 672cb1a0	Your H0[12] = xxxxxxxx	ERROR
+# Correct H0[13] = 4d48232a	Your H0[13] = xxxxxxxx	ERROR
+# Correct H0[14] = cfe99db3	Your H0[14] = xxxxxxxx	ERROR
+# Correct H0[15] = 047d81b9	Your H0[15] = xxxxxxxx	ERROR
+# ***************************
+# 
+# ERROR! 16 hash results are wrong!
+# 
+# Total number of cycles:         260
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/Amaan Singh/Desktop/Fall2023_final_project_SHA256_and_Bitcoin/Final_Project/bitcoin_hash/tb_bitcoin_hash.sv(334)
+#    Time: 5250 ps  Iteration: 2  Instance: /tb_bitcoin_hash
+# Break in Module tb_bitcoin_hash at C:/Users/Amaan Singh/Desktop/Fall2023_final_project_SHA256_and_Bitcoin/Final_Project/bitcoin_hash/tb_bitcoin_hash.sv line 334
